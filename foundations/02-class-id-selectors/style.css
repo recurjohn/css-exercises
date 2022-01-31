@@ -1,0 +1,26 @@
+/* style.css */
+
+/* This should handle elements 1, 3, and 5*/
+.x-men {
+    background-color: rgb(245, 143, 143);
+    font-family: "Verdana", "DejaVu Sans", sans-serif;
+}
+
+/* This should handle the second element only */
+#xavier {
+    color: blue;
+    font-size: 36px;
+}
+
+/* This should handle the third element only */
+.avengers {
+    font-size: 24px;
+}
+
+/* This should handle the fourth element only */
+#scott {
+    background-color: hsl(133, 65%, 77%);
+    font-size: 24px;
+    font-weight: bold;
+}
+
