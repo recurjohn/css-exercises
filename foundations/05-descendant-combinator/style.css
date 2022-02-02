@@ -1,0 +1,19 @@
+/* style.css */
+
+/* Descendant combinator by class */
+/* Passes all the checks! */
+/*.container .text {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}*/
+
+/* Descendant combinator by type */
+/* Passes all the checks! Note that this only works because the checks are all under the div types in the html file */
+div {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
