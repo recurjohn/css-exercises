@@ -6,22 +6,31 @@ body {
 .card {
   width: 400px;
   background: #fff;
-  margin: 16px auto;
+  margin: auto;
+  padding: 8px;
 }
 
 .title {
   background: #e3f4ff;
+  padding: 16px 8px;
+  margin: 8px 0px;
 }
 
 .content {
   background: #e3f4ff;
+  padding: 16px 8px;
+  margin-bottom: 8px;
 }
 
 .button-container {
   background: #e3f4ff;
+  padding: 16px;
+  text-align: center;
+  /* Need a way to separate the text element and button element*/
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  padding: 8px 16px;
 }
