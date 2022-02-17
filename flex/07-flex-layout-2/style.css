@@ -16,13 +16,30 @@ body {
   color: darkmagenta;
 }
 
+.body {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .sidebar {
   width: 300px;
   background: royalblue;
+  display: flex;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 0;
+  justify-content: center;
+  padding: 40px 0px;
+  gap: 16px 24px;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  max-width: 20vh;
+  padding: 8px 8px 40px 8px;
 }
