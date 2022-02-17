@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
-  height: 100vh;
+  display: flex;
+  flex-direction: column;
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
@@ -43,24 +44,28 @@ a {
 
 .left-links, .right-links {
  display: flex;
- gap: 16px;
+ gap: 24px;
+ width: 50%;
+ padding: 0px 16px;
 }
 
 .left-links {
-  justify-content: flex-start;
+  float: left;
 }
 
 .right-links{
+  float: right;
   justify-content: flex-end;
 }
 
 .footer {
   display: flex;
+  background-color: #eee;
 }
 
 .content {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 300px 0px;
+  padding: 250px 0px;
 }
