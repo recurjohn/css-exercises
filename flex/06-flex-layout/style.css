@@ -25,3 +25,20 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+/* Remove stylings from the links */
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header-links {
+  display: flex;
+}
+
+.left-links, .right-links {
+ display: flex;
+}
